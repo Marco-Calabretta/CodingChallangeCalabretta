@@ -1,0 +1,71 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* Rettangolo contenitore */
+.Contenitore{
+  width: 1080px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1%;
+  padding: 50px;
+}
+
+/* Allineamento e colorazione Titolo pagina */
+.Titolo{
+  text-align: center;
+  color: #00ff00;
+}
+
+/* Ridimensionamento Logo */
+div > img {
+  width: 20%;
+}
+
+/* Sfondo Menu Pulsanti di selezione */
+div > nav{
+  text-align: center;
+  padding: 10px;
+  background-color: #00ff00;
+}
+
+/* Settaggio Inline degli h2 */
+div> h2{
+  display: inline;
+}
+
+/* Formattazione testo del main */
+main> div{
+  padding: 2%;
+  color: white;
+  font-family: inherit;
+  line-height: 23px;
+}
+
+/* Indicatore monopattino carico */
+.carico{
+  background-color: green;
+  width: 600px;
+}
+
+/* Indicatore monopattino parzcarico */
+.parzcarico{
+  background-color: orange;
+  width: 300px;
+}
+
+/* Indicatore monopattino scarico */
+.scarico{
+  background-color: red;
+  width: 100px;
+}
+
+/* Formattazione indicatore grafico di carica */
+span {
+  border-radius: 5px;
+  padding: 13px;
+  display: inline-block;
+}
